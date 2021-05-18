@@ -1,16 +1,17 @@
 import styled from 'styled-components/native';
+import { RectButton } from 'react-native-gesture-handler';
 
-
-export const Container = styled.View`
+export const Container = styled(RectButton)`
   width: 100%;
   height: 60px;
-  padding: 0 16px;
-  background: #232129;
-  margin-bottom: 8px;
+  background: #ff9000;
+  border-radius: 10px;
+  margin-top: 8px;
+  justify-content: center;
+  align-items: center;
 `;
 
-export const TextInput = styled.TextInput`
-  flex: 1;
-  color: #fff;
-  font-size: 16px;
+export const ButtonText = styled.Text`
+  color: #312e38;
+  font-size: 18px;
 `;

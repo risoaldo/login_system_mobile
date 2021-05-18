@@ -3,7 +3,7 @@ import {KeyboardAvoidingView, Platform} from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 import Input from '../../components/Input';
-import Button from '../../components/Button/index';
+import Button from '../../components/Button';
 
 import { Container, Title } from './styles';
 
